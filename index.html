@@ -1,0 +1,666 @@
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BRM | Home</title>
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon.png">
+    <!-- Remix icons -->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+    <!-- Swiper.js styles -->
+    <link rel="stylesheet" href="./css/swiper-bundle.min.css"/>
+    <!-- Custom styles -->
+    <link rel="stylesheet" href="./css/blog-page.css">
+
+    <link rel="icon" href="hulk-ico.png"/>
+
+
+</head>
+<body>
+
+
+    <!-- Header -->
+    <header class="header" id="header">
+
+        <nav class="navbar container">
+            <a href="./index.html">
+                <h2 class="logo">BRM</h2>
+            </a>
+
+            <div class="menu" id="menu">
+                <ul class="list">
+                    <li class="list-item">
+                        <a href="#" class="list-link current">Home</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="list-link">Categories</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="list-link">Contact</a>
+                    </li>
+                    <li class="list-item screen-lg-hidden">
+                        <a href="./signin.html" class="list-link">Sign in</a>
+                    </li>
+                    <li class="list-item screen-lg-hidden">
+                        <a href="./signup.html" class="list-link">Sign up</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="list list-right">
+                <button class="btn place-items-center" id="theme-toggle-btn">
+                    <i class="ri-sun-line sun-icon"></i>
+                    <i class="ri-moon-line moon-icon"></i>
+                </button>
+
+                <button class="btn place-items-center" id="search-icon">
+                    <i class="ri-search-line"></i>
+                </button>
+
+                <button class="btn place-items-center screen-lg-hidden menu-toggle-icon" id="menu-toggle-icon">
+                    <i class="ri-menu-3-line open-menu-icon"></i>
+                    <i class="ri-close-line close-menu-icon"></i>
+                </button>
+
+                <a href="#" class="list-link screen-sm-hidden">Sign in</a>
+                <a href="#" class="btn sign-up-btn fancy-border screen-sm-hidden">
+                    <span>Sign up</span>
+                </a>
+            </div>
+
+        </nav>
+
+    </header>
+
+    <!-- Search -->
+    <div class="search-form-container container" id="search-form-container">
+
+        <div class="form-container-inner">
+
+            <form action="" class="form">
+                <input class="form-input" type="text" placeholder="What are you looking for?">
+                <button class="btn form-btn" type="submit">
+                    <i class="ri-search-line"></i>
+                </button>
+            </form>
+            <span class="form-note">Or press ESC to close.</span>
+
+        </div>
+
+        <button class="btn form-close-btn place-items-center" id="form-close-btn">
+            <i class="ri-close-line"></i>
+        </button>
+
+    </div>
+
+    <!-- Featured articles -->
+    <section class="featured-articles section section-header-offset">
+
+        <div class="featured-articles-container container d-grid">
+
+            <div class="featured-content d-grid">
+
+                <div class="headline-banner">
+                    <h3 class="headline fancy-border">
+                        <span class="place-items-center">Breaking news</span>
+                    </h3>
+                    <span class="headline-description">BRM now offering complete home repair...</span>
+                </div>
+
+                <!-- b1 -->
+                <a href="" class="article featured-article featured-article-1" id="b1href">
+                    <img src="" alt="" class="article-image" id="b1i">
+                    <span class="article-category" id="b1c"></span>
+
+                    <div class="article-data-container">
+
+                        <div class="article-data">
+                            <span id="b1d"></span>
+                            <span class="article-data-spacer"></span>
+                            <span>8 Min read</span>
+                        </div>
+
+                        <h3 class="title article-title" id="b1t"></h3>
+
+                    </div>
+                </a>
+
+                <!-- b2  -->
+                <a href="" class="article featured-article featured-article-2" id="b2href">
+                    <img src="" alt="" class="article-image" id="b2i">
+                    <span class="article-category" id="b2c">Food</span>
+
+                    <div class="article-data-container">
+
+                        <div class="article-data">
+                            <span id="b2d"></span>
+                            <span class="article-data-spacer"></span>
+                            <span>4 Min read</span>
+                        </div>
+
+                        <h3 class="title article-title" id="b2t"></h3>
+
+                    </div>
+                </a>
+
+                <!-- b3  -->
+                <a href="" class="article featured-article featured-article-3" id="b3href">
+                    <img src="" alt="" class="article-image" id="b3i">
+                    <span class="article-category" id="b3c"></span>
+
+                    <div class="article-data-container">
+
+                        <div class="article-data">
+                            <span id="b3d"></span>
+                            <span class="article-data-spacer"></span>
+                            <span>5 Min read</span>
+                        </div>
+
+                        <h3 class="title article-title" id="b3t"></h3>  
+
+                    </div>
+                </a>
+
+            </div>
+
+        
+
+            <!-- sidebar  -->
+            <div class="sidebar d-grid">
+
+                <h3 class="title featured-content-title">Trending projects</h3>
+
+                <!-- b4  -->
+                <a href="" class="trending-news-box" id="b4a">
+                    <div class="trending-news-img-box">
+                        <span class="trending-number place-items-center" id="b4n">01</span>
+                        <img src="" alt="" class="article-image" id="b4i">
+                    </div>
+
+                    <div class="trending-news-data">
+
+                        <div class="article-data">
+                            <span id="b4d"></span>
+                            <span class="article-data-spacer"></span>
+                            <span>3 Min read</span>
+                        </div>
+
+                        <h3 class="title article-title" id="b4t"></h3>
+
+                    </div>
+                </a>
+
+
+                <!-- b5  -->
+                <a href="" class="trending-news-box" id="b5a">
+                    <div class="trending-news-img-box">
+                        <span class="trending-number place-items-center" id="b5n">02</span>
+                        <img src="" alt="" class="article-image" id="b5i">
+                    </div>
+
+                    <div class="trending-news-data">
+
+                        <div class="article-data">
+                            <span id="b5d"></span>
+                            <span class="article-data-spacer"></span>
+                            <span>3 Min read</span>
+                        </div>
+
+                        <h3 class="title article-title" id="b5t"></h3>
+
+                    </div>
+                </a>
+
+                <!-- b6  -->
+                <a href="" class="trending-news-box" id="b6a">
+                    <div class="trending-news-img-box">
+                        <span class="trending-number place-items-center" id="b6n">03</span>
+                        <img src="" alt="" class="article-image" id="b6i">
+                    </div>
+
+                    <div class="trending-news-data">
+
+                        <div class="article-data">
+                            <span id="b6d"></span>
+                            <span class="article-data-spacer"></span>
+                            <span>3 Min read</span>
+                        </div>
+
+                        <h3 class="title article-title" id="b6t"></h3>
+
+                    </div>
+                </a>
+
+                <!-- b7  -->
+                <a href="" class="trending-news-box" id="b7a">
+                    <div class="trending-news-img-box">
+                        <span class="trending-number place-items-center" id="b7n">04</span>
+                        <img src="" alt="" class="article-image" id="b7i">
+                    </div>
+
+                    <div class="trending-news-data">
+
+                        <div class="article-data">
+                            <span id="b7d"></span>
+                            <span class="article-data-spacer"></span>
+                            <span>3 Min read</span>
+                        </div>
+
+                        <h3 class="title article-title" id="b7t"></h3>
+
+                    </div>
+                </a>
+
+                <!-- b8  -->
+                <a href="" class="trending-news-box" id="b8a">
+                    <div class="trending-news-img-box">
+                        <span class="trending-number place-items-center" id="b8n">05</span>
+                        <img src="" alt="" class="article-image" id="b8i">
+                    </div>
+
+                    <div class="trending-news-data">
+
+                        <div class="article-data">
+                            <span id="b8d"></span>
+                            <span class="article-data-spacer"></span>
+                            <span>3 Min read</span>
+                        </div>
+
+                        <h3 class="title article-title" id="b8t"></h3>
+
+                    </div>
+                </a>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- Quick read -->
+    <section class="quick-read section">
+
+        <div class="container">
+
+            <h2 class="title section-title" data-name="Quick read">Quick read</h2>
+            <!-- Slider main container -->
+            <div class="swiper">
+                <!-- Additional required wrapper -->
+                <div class="swiper-wrapper">
+                    <!-- Slides -->
+                    <a href="#" class="article swiper-slide">
+                        <img src="" alt="" class="article-image" id="s1i">
+
+                        <div class="article-data-container">
+                            <div class="article-data">
+                                <span id="s1d"></span>
+                                <span class="article-data-spacer"></span>
+                                <span id="s1c">3 Min read</span>
+                            </div>
+                            <h3 class="title article-title" id="s1t"></h3>
+                        </div>
+                    </a>
+
+                    <script>
+
+                    </script>
+
+
+                    <!-- Slides -->
+                    <a href="#" class="article swiper-slide">
+                        <img src="" alt="" class="article-image" id="s2i">
+
+                        <div class="article-data-container">
+                            <div class="article-data">
+                                <span id="s2d"></span>
+                                <span class="article-data-spacer"></span>
+                                <span id="s2c"></span>
+                            </div>
+                            <h3 class="title article-title" id="s2t"></h3>
+                        </div>
+                    </a>
+                    <!-- Slides -->
+                    <a href="#" class="article swiper-slide">
+                        <img src="" alt="" class="article-image" id="s3i">
+
+                        <div class="article-data-container">
+                            <div class="article-data">
+                                <span id="s3d"></span>
+                                <span class="article-data-spacer"></span>
+                                <span id="s3c"></span>
+                            </div>
+                            <h3 class="title article-title" id="s3t"></h3>
+                        </div>
+                    </a>
+                    <!-- Slides -->
+                    <a href="#" class="article swiper-slide">
+                        <img src="" alt="" class="article-image" id="s4i">
+
+                        <div class="article-data-container">
+                            <div class="article-data">
+                                <span id="s4d"></span>
+                                <span class="article-data-spacer"></span>
+                                <span id="s4c"></span>
+                            </div>
+                            <h3 class="title article-title" id="s4t"></h3>
+                        </div>
+                    </a>
+                    <!-- Slides -->
+                    <a href="#" class="article swiper-slide">
+                        <img src="" alt="" class="article-image" id="s5i">
+
+                        <div class="article-data-container">
+                            <div class="article-data">
+                                <span id="s5d"></span>
+                                <span class="article-data-spacer"></span>
+                                <span id="s5c"></span>
+                            </div>
+                            <h3 class="title article-title" id="s5t"></h3>
+                        </div>
+                    </a>
+                    <!-- Slides -->
+                    <a href="#" class="article swiper-slide">
+                        <img src="" alt="" class="article-image" id="s6i">
+
+                        <div class="article-data-container">
+                            <div class="article-data">
+                                <span id="s6d"></span>
+                                <span class="article-data-spacer"></span>
+                                <span id="s6c"></span>
+                            </div>
+                            <h3 class="title article-title" id="s6t"></h3>
+                        </div>
+                    </a>
+                </div>
+                <!-- Navigation buttons -->
+                <div class="swiper-button-prev swiper-controls"></div>
+                <div class="swiper-button-next swiper-controls"></div>
+                <!-- Pagination -->
+                <div class="swiper-pagination"></div>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- Older posts -->
+    <section class="older-posts section">
+
+        <div class="container">
+
+            <h2 class="title section-title" data-name="Older posts">Older posts</h2>
+
+            <div class="older-posts-grid-wrapper d-grid">
+
+                <a href="#" class="article d-grid" id="o1href">
+                    <div class="older-posts-article-image-wrapper">
+                        <img id="o1i" src="" alt="" class="article-image">
+                    </div>
+
+                    <div class="article-data-container">
+
+                        <div class="article-data">
+                            <span id="o1d"></span>
+                            <span class="article-data-spacer"></span>
+                            <span id="o1c"></span>
+                        </div>
+
+                        <h3 class="title article-title" id="o1t"></h3>
+                        <p class="article-description" id="o1b"></p>
+
+                    </div>
+                </a>
+
+                <a href="#" class="article d-grid" id="o2href">
+                    <div class="older-posts-article-image-wrapper">
+                        <img id="o2i" src="" alt="" class="article-image">
+                    </div>
+
+                    <div class="article-data-container">
+
+                        <div class="article-data">
+                            <span id="o2d"></span>
+                            <span class="article-data-spacer"></span>
+                            <span id="o2c"></span>
+                        </div>
+
+                        <h3 class="title article-title" id="o2t"></h3>
+                        <p class="article-description" id="o2b"></p>
+
+                    </div>
+                </a>
+
+                <a href="#" class="article d-grid" id="o3href">
+                    <div class="older-posts-article-image-wrapper">
+                        <img id="o3i" src="" alt="" class="article-image">
+                    </div>
+
+                    <div class="article-data-container">
+
+                        <div class="article-data">
+                            <span id="o3d"></span>
+                            <span class="article-data-spacer"></span>
+                            <span id="o3c"></span>
+                        </div>
+
+                        <h3 class="title article-title" id="o3t"></h3>
+                        <p class="article-description" id="o3b"></p>
+
+                    </div>
+                </a>
+
+                <a href="#" class="article d-grid" id="o4href">
+                    <div class="older-posts-article-image-wrapper">
+                        <img id="o4i" src="" alt="" class="article-image">
+                    </div>
+
+                    <div class="article-data-container">
+
+                        <div class="article-data">
+                            <span id="o4d"></span>
+                            <span class="article-data-spacer"></span>
+                            <span id="o4c"></span>
+                        </div>
+
+                        <h3 class="title article-title" id="o4t"></h3>
+                        <p class="article-description" id="o4b"></p>
+
+                    </div>
+                </a>
+
+                
+
+            </div>
+
+            <div class="see-more-container">
+                <a href="#" class="btn see-more-btn place-items-center">See more <i class="ri-arrow-right-s-line"></i></i></a>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- Popular tags -->
+    <section class="popular-tags section">
+
+        <div class="container">
+
+            <h2 class="title section-title" data-name="Popular tags">Popular tags</h2>
+
+            <div class="popular-tags-container d-grid">
+
+                <a href="#" class="article">
+                    <span class="tag-name" id="tag1c"></span>
+                    <img src="" alt="" class="article-image" id="tag1i">
+                </a>
+
+                <a href="#" class="article">
+                    <span class="tag-name" id="tag2c"></span>
+                    <img src="" alt="" class="article-image" id="tag2i">
+                </a>
+
+                <a href="#" class="article">
+                    <span class="tag-name" id="tag3c"></span>
+                    <img src="" alt="" class="article-image" id="tag3i">
+                </a>
+
+                <a href="#" class="article">
+                    <span class="tag-name" id="tag4c"></span>
+                    <img src="" alt="" class="article-image" id="tag4i">
+                </a>
+
+                <a href="#" class="article">
+                    <span class="tag-name" id="tag5c"></span>
+                    <img src="" alt="" class="article-image" id="tag5i">
+                </a>
+
+                <a href="#" class="article">
+                    <span class="tag-name" id="tag6c"></span>
+                    <img src="" alt="" class="article-image" id="tag6i">
+                </a>
+
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Newsletter -->
+    <section class="newsletter section">
+
+        <div class="container">
+
+            <h2 class="title section-title" data-name="Newsletter">Newsletter</h2>
+
+            <div class="form-container-inner">
+                <h6 class="title newsletter-title">Subscribe to BRM</h6>
+                <p class="newsletter-description">Register to recieve updates</p>
+
+                <form action="" class="form">
+                    <input class="form-input" type="text" placeholder="Enter your email address">
+                    <button class="btn form-btn" type="submit">
+                        <i class="ri-mail-send-line"></i>
+                    </button>
+                </form>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer section">
+
+        <div class="footer-container container d-grid">
+            
+            <div class="company-data">
+                <a href="./index.html">
+                    <h2 class="logo">BRM</h2>
+                </a>
+                <p class="company-description">Connect with us for home repair</p>
+                
+                <ul class="list social-media">
+                    <li class="list-item">
+                        <a href="#" class="list-link"><i class="ri-instagram-line"></i></a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="list-link"><i class="ri-facebook-circle-line"></i></a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="list-link"><i class="ri-twitter-line"></i></a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="list-link"><i class="ri-pinterest-line"></i></a>
+                    </li>
+                </ul>
+
+                <span class="copyright-notice">&copy;2023 BRM. All rights reserved.</span>
+            </div>
+
+            <div>
+                <h6 class="title footer-title">Categories</h6>
+                
+                <ul class="footer-list list">
+                    <li class="list-item">
+                        <a href="#" class="list-link">Home repair</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="list-link">Bathroom Remodel</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="list-link">Deck Builds</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="list-link">Drywall</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="list-link">Roofing and Siding</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="list-link">Handyman</a>
+                    </li>
+                </ul>
+
+            </div>
+
+            <div>
+                <h6 class="title footer-title">Links</h6>
+                
+                <ul class="footer-list list">
+                    <li class="list-item">
+                        <a href="https://www.brmnow.com" class="list-link">Home</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="https://blog.brmnow.com" class="list-link">Blog</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="www.google.com" class="list-link">Google</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="mailto:brianrmcgee@gmail.com" class="list-link">Author</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="https://www.brmcontractors.net/contact-brm.html" class="list-link">Contact</a>
+                    </li>
+                </ul>
+
+            </div>
+
+            <div>
+                <h6 class="title footer-title">Company</h6>
+                
+                <ul class="footer-list list">
+                    <li class="list-item">
+                        <a href="#" class="list-link">Contact us</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="list-link">F.A.Q</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="list-link">Careers</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="list-link">Authors</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="list-link">Memberships</a>
+                    </li>
+                </ul>
+
+            </div>
+
+        </div>
+        
+    </footer>
+
+    <!-- Swiper.js -->
+    <script src="./assets/js/swiper-bundle.min.js"></script>
+
+    <!-- Custom script -->
+    <script src="./js/blog-page.js"></script>
+    <script src="https://brmdev.com/records.js" type="text/javascript"></script>
+    <script src="./js/blog-page-dom.js"></script>
+</body>
+</html>
